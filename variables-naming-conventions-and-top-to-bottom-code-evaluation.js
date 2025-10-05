@@ -23,10 +23,21 @@ Things to reflect on:
   - How do clear variable names benefit team collaboration?
   
 */
-
+/*
 let a = "Alice";
 let b = 5;
 let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
+
 console.log(d);
+*/
+
+let name = "Alice";
+let numOfItems = 5;
+let itemsCost = 20;
+let purchagedItems = name + "bought" + numOfItems + " item for $ " + itemCost = "." ;
+console.log(purchagedItems);
+let totalCost = numOfItems * itemsCost ;
+console.log(totalCost);
+
